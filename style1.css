@@ -1,0 +1,148 @@
+#head{
+    background-image: url(head.jpg);
+    width: 100%;
+    height: 180px;
+    /* display: flex; */
+    position: relative;
+}
+.logo{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 285px;
+}
+.inf{
+    font-weight: bold;
+    padding-top: 30px;
+    position: absolute;
+    left: 435px;
+}
+.temp{
+    font-weight: bold;
+    padding-top: 30px;
+    position: absolute;
+    right: 435px;
+}
+.graf{
+    font-weight: bold;
+    padding-top: 30px;
+    position: absolute;
+    right: 235px;
+}
+a{
+    font-family: cursive;
+    font-size: large;
+    color: purple;
+}
+.story{
+    padding-top: 140px;
+    position: absolute;
+    height: 80px;
+    width: 200px;
+    left: 16%;
+}
+.happy{
+    padding-top: 140px;
+    position: absolute;
+    height: 80px;
+    width: 200px;
+    left: 28%;
+}
+.sale{
+    padding-top: 140px;
+    position: absolute;
+    height: 80px;
+    width: 200px;
+    left: 40%;
+}
+.partner{
+    padding-top: 140px;
+    position: absolute;
+    height: 80px;
+    width: 200px;
+    left: 50%;
+}
+.contact{
+    padding-top: 140px;
+    position: absolute;
+    height: 80px;
+    width: 200px;
+    left: 66%;
+}
+.special{
+    padding-top: 140px;
+    position: absolute;
+    height: 80px;
+    width: 200px;
+    left: 76%;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.opisanie{
+    padding-left: 10px;
+    width: 60%;
+    text-transform: uppercase;
+    color: green;
+    text-indent: 20px;
+    background-color: aqua;
+    opacity:0.8;
+    font-family: cursive;
+    font-size: 13.5px;
+}
+.header{
+    margin-top: 0;
+    display: flex;
+    border-radius: 10px;  
+    height: 300px;  
+}
+.container{
+    width: 60%;
+    height: 300px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .slider{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+.container ul{
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 20;
+}
+
+.container ul li{
+    list-style: none;
+    cursor: pointer;
+    margin: 10px;
+}
+
+
+.container ul li video{
+    width: 150px;
+    transition: all 0.3s;
+}
+.container ul li video:hover{
+    transform: scale(1.3);
+}
+
+video{
+    width: 100%;
+    height: 100%;
+}

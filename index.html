@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"
+        integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="adaptive.css">
+</head>
+
+<body>
+
+    <script src="code.js"></script>
+
+    <div id="head">
+        <div>
+            <img src="logo.jpg" class="logo">
+            <p class="inf">Аквапарк AquaWorld официальный сайт</br>+7(495)896-6-325</p>
+            <p class="temp">Сейчас в аквапарке:</br>
+                <img src="temp.png" width="10px" height="18px"> воздуха +30°C;
+                <img src="temp.png" width="10px" height="18px"> воды +30°C
+            </p>
+            <p class="graf">
+                ПН: санитарный день<br>
+                ВТ-ПТ: 12.00-20.00<br>
+                СБ-ВС: 10.00-22.00 </p>
+        </div>
+        <div class="qwer">
+            <div class="q2"><a href="/by aquapark/index.html" class="story">Про Аквапарк</a></div>
+            <div class="q1"><a href="/atraction/index.html" class="happy">Развлечения</a></div>
+            <div class="q1"><a href="/tarifs/index.html" class="sale">Тарифы</a></div>
+            <div class="q1"><a href="/conect/index.html" class="partner">Сотрудничество</a></div>
+            <div class="q1"><a href="/contacts/index.html" class="contact">Контакты</a></div>
+            <div class="q1"><a href="/actions/index.html" class="special">Спецпредложения</a></div>
+        </div>
+
+    </div>
+    <div class="zast">
+        <img src="back.jpg" height="80%" width="100%">
+    </div>
+    <div class="header">
+        <text class="opisanie">
+            Приветствуем Вас на официальном сайте Московского Аквапарка "AquaWorld"! Предлагаем ознакомиться с
+            новостями, действующими акциями, оставить отзыв, приобрести билеты или найти актуальную информацию.
+
+            Аквапарк Москва открыт 25 марта 2020 года и является одним из самых крутых и больших аквапраков Москвы
+            площадью 7800 кв. м. Удачное расположение на юго-западе Москвы Щикарные панорамнные виды круглый год делает
+            посещение аквапарка максимально комфортным. Посетителям доступны многочисленные парковочные места, множество
+            магазинов, ресторанов.
+
+            Уникальный дизайн, начиная с холла и заканчивая солнечной террасой позволяет гостям любого возраста
+            оказаться среди динозавров затерянного мира Юрского периода, тропических озер и растений. Интерьер прекрасно
+            дополняют водопады, лагуны, медленная река, проходящая по периметру акватории, пещеры, кафе в образе
+            деревушек древних цивилизаций. 12 экстремальных аттракционов, SPA-комплекс, детский городок, волновой
+            бассейн, а также огромный комплекс мер направленный в пользу качества предоставляемых услуг создают широкие
+            возможности активного и безопасного отдыха!
+
+            Аквапарк AquaWorld – Лучшее место для отдыха всей семьей!
+        </text>
+        <div class="container">
+            <img src="park.jpg" class="slider"></img>
+
+            <ul>
+                <li onclick="videoslider('aqua.mp4')"><video src="aqua.mp4" autoplay loop muted controls></video></li>
+            </ul>
+        </div>
+
+        <script>
+            function videoslider(links) {
+                document.querySelector(".slider").src = links;
+            }
+
+        </script>
+    </div>
+</body>
+
+</html>
